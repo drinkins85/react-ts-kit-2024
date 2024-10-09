@@ -1,0 +1,28 @@
+.Button {
+  border-radius: 5px;
+
+  &.standard {
+    height: 44px;
+    min-width: 200px;
+  }
+
+  &.large {
+    height: 54px;
+    min-width: 200px;
+  }
+
+  &.black {
+    background-color: black;
+    color: white;
+  }
+
+  &.red {
+    background-color: red;
+    color: bisque;
+  }
+
+  &.white {
+    background-color: white;
+    color: black;
+  }
+}
